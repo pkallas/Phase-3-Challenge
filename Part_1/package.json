@@ -1,10 +1,9 @@
 {
-  "name": "phase_3_challenge",
+  "name": "part_1",
   "version": "1.0.0",
-  "description": "Learner's Guild Phase 3 Challenge",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
-    "start": "nodemon Part_1/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pkallas",
