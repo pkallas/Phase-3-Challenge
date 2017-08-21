@@ -4,8 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "db-init": "psql < schema.sql",
+    "test": "mocha database_test.js"
   },
   "author": "pkallas",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^7.1.2"
+  },
+  "devDependencies": {
+    "chai": "^4.1.1",
+    "mocha": "^3.5.0"
+  }
 }
