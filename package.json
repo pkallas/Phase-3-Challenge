@@ -4,6 +4,7 @@
   "description": "Learner's Guild Phase 3 Challenge",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon Part_1/app.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "pkallas",
