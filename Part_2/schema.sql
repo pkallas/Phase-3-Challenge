@@ -16,6 +16,7 @@ CREATE TABLE shoppers(
 );
 
 CREATE TABLE orders(
-  order_id INTEGER REFERENCES products (id),
-  shopper_id INTEGER REFERENCES shoppers (id)
+  order_id SERIAL PRIMARY KEY,
+  shopper_id INTEGER REFERENCES shoppers (id),
+  total_cost NUMERIC(1000, 2)
 );
