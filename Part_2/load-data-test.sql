@@ -1,4 +1,4 @@
-\c grocery_store
+\c grocery_store_test
 COPY products (name, price, section) FROM '/Users/pkallas/Desktop/Phase_3_Challenge/Part_2/grocery_seed_data.csv' DELIMITERS ',' CSV;
 
 INSERT INTO shoppers (name) VALUES ('Patrick');
