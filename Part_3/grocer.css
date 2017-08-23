@@ -170,9 +170,18 @@ body {
   padding: 5px 10px;
 }
 
-.total {
+#total {
   position: absolute;
   bottom: 10px;
   right: 20px;
   padding: 5px 10px;
+}
+
+#cart-items {
+  list-style-type: none;
+  text-align: center;
+}
+
+#cart-items li{
+  text-align: center;
 }
