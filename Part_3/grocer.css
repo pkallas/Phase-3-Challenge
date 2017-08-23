@@ -139,7 +139,7 @@ body {
   background: white;
 }
 
-.close-button {
+#close-button {
   border-color: red;
   background-color: red;
   position: absolute;
@@ -160,7 +160,7 @@ body {
   text-align: center;
 }
 
-.clear-button {
+#clear-button {
   border-color: black;
   background-color: white;
   position: absolute;
