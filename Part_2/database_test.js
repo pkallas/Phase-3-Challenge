@@ -1,7 +1,5 @@
 process.env.NODE_ENV = 'test';
 const expect = require('chai').expect;
-const pg = require('pg');
-const client = require('./pg');
 const realShoppers = require('./database').realShoppers;
 const shopperOrders = require('./database').shopperOrders;
 const productList = require('./database').productList;
